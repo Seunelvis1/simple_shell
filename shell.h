@@ -1,5 +1,3 @@
-shell.h
-
 #ifndef _SHELL_H_
 #define _SHELL_H_
 
@@ -13,6 +11,8 @@ shell.h
 #include <limits.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <stddef.h>
+#include <string.h>
 
 /* for read/write buffers */
 #define READ_BUF_SIZE 1024
